@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Core 3 notes</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="core-3-notes">Core 3 notes</h1>
+
+<h2 id="functions">Functions</h2>
+
+<p>A function is a one to one mapping</p>
+
+<h3 id="domain-and-range-of-a-function">Domain and range of a function</h3>
+
+<p>The domain of a function is the set of valid input values</p>
+
+<p>A function is defined by both a rule and a domain</p>
+
+<h3 id="inverse-of-a-function">Inverse of a function</h3>
+
+<p>An inverse function is such that </p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-1861">ff^-1 (x) = f^-1 f(x) = x</script></p>
+
+<p>For a function to have a valid inverse function, it must be a one to one mapping</p>
+
+<h2 id="transformations-and-the-modulus-function">Transformations and the modulus function</h2>
+
+<h3 id="translations">Translations</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-1893">Translating\ the\ function\ y = f(x)\ by\ the\ vector\ \begin{bmatrix} a \\ b \end{bmatrix} gives \\ y = f(x-a) + b</script></p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-1922">y = kf(x)\ is\ a\ stretch\ of\ y = f(x)\ by\ a\ factor\ of\ k\ in\ the\ y\ direction</script></p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2001">y = f(\frac{x}{k})\ is\ a\ stretch\ by\ a\ factor\ of\ k\ in\ the\ x\ direction</script></p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2005">|f(x)| = \left\{
+        \begin{array}{ll}
+                 f(x) & \quad f(x) \geq 0 \\
+                 -f(x) & \quad f(x) < 0
+        \end{array}
+    \right.
+</script></p>
+
+<h2 id="inverse-trigonometric-functions">Inverse trigonometric functions</h2>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2057">asin(x)\ has\ domain -1 \leq x \leq 1\ and\ range -\frac{\pi}{2} \leq asin(x) \leq \frac{\pi}{2} \\ acos(x)\ has\ domain -1 \leq x \leq 1\ and\ range\ 0 \leq acos(x) \leq \frac{\pi}{2} \\ atan(x)\ has\ domain\ x \in \mathbb{R} \  and\ range -\frac{\pi}{2} \leq atan(x) \leq \frac{\pi}{2} \\</script></p>
+
+<h2 id="trig-identities">Trig identities</h2>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2081">sin(x)^2 + cos(x)^2 = 1 \\ 1 + cot(x)^2 = cosec(x)^2 \\ 1 + tan(x)^2 = sec(x)^2</script></p>
+
+<h2 id="calculus">Calculus</h2>
+
+
+
+<h3 id="log-rules">Log rules</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2124">ln(a) + ln(b) = ln(ab) \\ ln(a) - ln(b) = ln(\frac{a}{b}) \\ nln(a) = ln(a^n)\\ log_a b = \frac{ln(a)}{ln(b)}</script></p>
+
+<h3 id="differentials-and-integrals">Differentials and integrals</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2323">\frac{d}{dx} e^x = e^x \quad \int e^x dx = e^x + C \\ \frac{d}{dx} e^{ax + b} = ae^{ax+b} \quad \int e^{ax+b} dx = \frac{1}{a} e^{ax+b} + C\\ \frac{d}{dx} e^{f(x)} = f'(x)e^{f(x)} \quad \int  e^{f(x)} dx = \frac{1}{f'(x)}  e^{f(x)} + C \\ \frac{d}{dx} ln(x) = \frac{1}{x} \quad \int \frac{1}{x} dx = ln(x) + C \\ \frac{d}{dx} sin(x) = cos(x) \quad  \int sin(x) = dx = -cos(x) + C \\ \frac{d}{dx} cos(x) = -sin(x) \quad \int cos(x) dx = sin(x) + C</script></p>
+
+<h3 id="the-chain-rule">The chain rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2324">\frac{dy}{dx}\ = \frac{dy}{du}  \frac{du}{dx}</script></p>
+
+<h3 id="the-product-rule">The product rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2341"> \frac{d}{dx} f(x) g(x)  = f(x)g'(x) + f'(x)g(x) </script></p>
+
+<p>or </p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2353">\frac{d}{dx} uv = uv' + vu'</script></p>
+
+<h3 id="the-quotient-rule">The quotient rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2378">\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}</script></p>
+
+<p>or </p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2398">\frac{d}{dx} \frac{u}{v} = \frac{vu' - uv'}{v^2}</script></p>
+
+
+
+<h3 id="integration-by-inspection-and-substitution">Integration by inspection and substitution</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2473">\int cos(ax + b) dx = \frac{1}{a} sin(ax + b) + C \\ \int sin(ax + b) dx = -\frac{1}{a} cos(ax + b) + C \\ \int sec(ax + b)^2 dx = \frac{1}{a}tan(ax + b) + C \\ \int \frac{f'(x)}{f(x)} dx = ln|f(x)| + C</script></p>
+
+
+
+<h3 id="integration-by-parts-and-standard-integrals">Integration by parts and standard integrals</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2511">\int f(x) \frac{d}{dx} g(x)\ dx = f(x)g(x) - \int g(x) \frac{d}{dx} f(x) \ dx</script></p>
+
+<p>More simply</p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2538">\int u \frac{dv}{dx} \ dx = uv - \int v \frac{du}{dx} \ dx</script></p>
+
+<p>In general it is easier to make u the simpler part of the given integrand.</p>
+
+
+
+<h3 id="volume-of-a-revolution">Volume of a revolution</h3>
+
+<p>The volume of a function y = f(x) rotated fully around the x axis is given by</p>
+
+
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2560">V = \int _a ^b \pi y^2 \ dx</script></p>
+
+<p>To find the volume of a revolution around the y axis, rearrange the function to the form x = g(y).</p>
+
+<h2 id="numerical-solutions-and-iterative-methods">Numerical solutions and iterative methods</h2>
+
+
+
+<h3 id="iteration">Iteration</h3>
+
+<p>Iteration requires a formula in the form x<sub>n + 1</sub> = f(x<sub>n</sub>)</p>
+
+<p>An iterative formula converges if |f’(x) &lt; 1 for certain values of x</p>
+
+<p>If the iteration converges to a limit the limit can be found by setting x<sub>n+1</sub> = x<sub>n</sub> = L</p>
+
+
+
+<h3 id="trapezium-rule">Trapezium rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2612">\int _a ^b y\ dx \approx \frac{b-a}{n} [y_0 + y_n + 2(y_1 + ... + y_{n-1})]</script></p>
+
+<p>If y tends upwards the rule will overestimate, and if y tends downwards the rule will underestimate.</p>
+
+
+
+<h3 id="mid-ordinate-rule">Mid-Ordinate rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2692">\int _a ^b y\ dx \approx \frac{b-a}{n} (y_{\frac{1}{2}} + y_{\frac{3}{2}} + ... + y_{n - \frac{3}{2}} + y_{n - \frac{1}{2}}) </script></p>
+
+<p>Where n is even.</p>
+
+<h3 id="simpsons-rule">Simpson’s rule</h3>
+
+<p><script type="math/tex; mode=display" id="MathJax-Element-2688">\int _a ^b y\ dx \approx \frac{b-a}{3n} [y_0 + y_n + 4(y_1 + y_3 + ... + y_{n-1}) + 2(y_2 + y_4 + ... + y_{n-2})]</script></p></div></body>
+</html>
